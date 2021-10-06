@@ -1,0 +1,138 @@
+.backgroundImage {
+  background-image: url("../../TC2\ -\ Backgrounds\ 1920x1200\ -\ Sport\ -\ v2.0.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+
+  @media (max-width: 860px) {
+    background-image: url("../../hero_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+.hero {
+  @media (max-width: 860px) {
+    padding: 0;
+    height: 400px;
+  }
+
+  overflow: hidden;
+  padding: 10px 50px;
+  display: inline-block;
+  height: 700px;
+  width: 100%;
+  // margin-left:auto;
+  // margin-right: auto;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  &_title-image {
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 150px;
+    &_title-image-ls {
+      height: 150px;
+    }
+    @media (max-width: 860px) {
+      height: 50px;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  &_title-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &_title-h1 {
+    color: white;
+    margin-bottom: -20px;
+    font-size: 80px;
+    font-weight: bold;
+    @media (max-width: 860px) {
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+  &_title-h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    @media (max-width: 860px) {
+      font-size: 30px;
+      font-weight: 300;
+    }
+  }
+  &_logos {
+    display: flex;
+    height: 80px;
+    width: 80%;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    // margin-left:20px;
+    // margin-right:20px;
+    
+    &-left {
+      display: inline-block;
+      position: absolute;
+      top: 590px;
+      right: 10px;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      &-img {
+        height: 80px;
+        @media (max-width: 860px) {
+          height: 40px;
+        }
+      }
+      @media (max-width: 860px) {
+        right: 15px;
+        top: 290px;
+
+      }
+    }
+    &-right {
+      position: absolute;
+      top: 600px;
+      left: 50px;
+      margin: 5px;
+      display: flex;
+      flex-direction: row;
+      @media (max-width: 860px) {
+        display: flex;
+        flex-direction: column;
+        left: 15px;
+        top: 300px;
+      }
+      &-poweredby {
+        position: absolute;
+        top: 10px;
+        height: 45px;
+        @media (max-width: 860px) {
+          top: 0px;
+         left: 10px;
+          height: 20px;
+        }
+      }
+      &-cq {
+        position: absolute;
+        left: 240px;
+        height: 60px;
+        @media (max-width: 860px) {
+          left: 0;
+          top:20px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
