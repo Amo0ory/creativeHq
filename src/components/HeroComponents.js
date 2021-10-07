@@ -4,6 +4,7 @@ import poweredBy from "../2x/poweredBy@2x.png";
 // import creativeHQ from '../2x/CHQ_logo@2x.png';
 import creativeHQ from '../2x/cq-logo@2x.png';
 import techChampions from '../2x/techChamp@2x.png';
+
 const HeroComponents = () => {
   return (
     <div className="backgroundImage">
@@ -19,12 +20,12 @@ const HeroComponents = () => {
     </div>
 
     <div className="hero_logos">
-    <div className="hero_logos-right">
-        <img src={poweredBy}  className='hero_logos-right-poweredby'/>
-        <img src={creativeHQ}  className='hero_logos-right-cq'  />
-    </div>
     <div className="hero_logos-left">
-        <img src={mcit} className='hero_logos-left-img'/>
+        <img src={poweredBy}  className='hero_logos-left-poweredby'/>
+        <img src={creativeHQ}  className='hero_logos-left-cq'  />
+    </div>
+    <div className="hero_logos-right">
+        <img src={mcit} className='hero_logos-right-img'/>
     </div>
 
     </div>

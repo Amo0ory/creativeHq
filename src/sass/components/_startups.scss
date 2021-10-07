@@ -27,6 +27,7 @@
   &_right {
     display: inline-block;
     // position: absolute;
+    width: 100%;
     &-title {
       top: 10;
       left: 10;
@@ -46,7 +47,7 @@
     }
     &-circles {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       flex-direction: row;
       @media (max-width: 860px) {
