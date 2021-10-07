@@ -22,7 +22,8 @@ const HeroComponents = () => {
     <div className="hero_logos">
     <div className="hero_logos-left">
         <img src={poweredBy}  className='hero_logos-left-poweredby'/>
-        <img src={creativeHQ}  className='hero_logos-left-cq'  />
+        <a href='https://creativehq.co.nz/' target='_blank' rel="noreferrer"><img src={creativeHQ}  className='hero_logos-left-cq'  /></a>
+       
     </div>
     <div className="hero_logos-right">
         <img src={mcit} className='hero_logos-right-img'/>

@@ -17,7 +17,7 @@ const Circle = ({link, title }) => {
 //     textAlign:'center',
     
 //   };
-  return <div className='circles' ><a href={`${link}`}  style={{textDecoration:'none', color:'black'}} alt='image' target="_blank">{title}</a></div>;
+  return <div className='circles' ><a href={`${link}`}  style={{textDecoration:'none', color:'black'}} alt='image' target="_blank" rel="noreferrer">{title}</a></div>;
 };
 
 export default Circle;
